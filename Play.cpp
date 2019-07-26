@@ -214,7 +214,7 @@ int Play::run(sf::RenderWindow &app)
 
 		//--------------------app drawing----------------------
 		app.clear();
-		app.draw(background_sprite);
+		app.draw(*sBackground);
 		app.draw(player_life);
 		app.draw(meteors_counter_text);
 		app.draw(shots_counter_text);

@@ -31,9 +31,9 @@ int main(int argc, char** argv)
 			window = windows_controler[window]->run(app);
 		}
 	}
-	catch (std::exception &ex)
+	catch (XBoundary ex)
 	{
-		std::cout << "\nEXCEPTION: " << ex.what() << std::endl;
+		std::cout << ex.getException();
 	}
 
 }
