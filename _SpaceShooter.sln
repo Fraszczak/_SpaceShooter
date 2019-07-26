@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_SpaceShooter", "_SpaceShooter.vcxproj", "{DD82880D-88D9-4FC9-ACA1-2E978168D043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Debug|x64.ActiveCfg = Debug|x64
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Debug|x64.Build.0 = Debug|x64
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Debug|x86.Build.0 = Debug|Win32
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Release|x64.ActiveCfg = Release|x64
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Release|x64.Build.0 = Release|x64
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Release|x86.ActiveCfg = Release|Win32
+		{DD82880D-88D9-4FC9-ACA1-2E978168D043}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {442C790F-3E9B-4D02-B77D-F95B52C546FD}
+	EndGlobalSection
+EndGlobal
