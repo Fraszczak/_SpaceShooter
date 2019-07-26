@@ -5,7 +5,6 @@ Meteors::Meteors(Animation &animation, float x, float y) : Entity::Entity(animat
 {
 	this->name = "Meteor";
 }
-
 void Meteors::update(sf::Time &t)
 {
 	srand(time(NULL));
@@ -17,5 +16,4 @@ void Meteors::update(sf::Time &t)
 	{
 		life = false;
 	}
-	
 }

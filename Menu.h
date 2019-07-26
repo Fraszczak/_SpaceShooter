@@ -8,6 +8,7 @@ class Menu :
 public:
 	Menu() {};
 	~Menu() {};
+
 	int run(sf::RenderWindow &app) override;
 };
 

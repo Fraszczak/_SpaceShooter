@@ -6,8 +6,5 @@ class Explosion :
 public:
 	Explosion();
 	Explosion(Animation &animation, float x, float y);
-	
-
-
 };
 

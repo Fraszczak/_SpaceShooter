@@ -6,6 +6,6 @@ class EndOfWorld :
 public:
 	EndOfWorld(Animation &animation, float x, float y);
 
-	virtual void	update(sf::Time &time);
+	virtual void update(sf::Time &time);
 };
  

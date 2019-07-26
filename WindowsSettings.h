@@ -31,32 +31,21 @@ protected:
 	sf::Text display, audio, get_back, still_in_progress;
 //Play
 protected:
-	sf::Texture	backgroud_texture,
-		player_texture,
-		big_meteor_texture,
-		small_meteor_texture,
-		laser_texture,
-		laser_explosion_texture,
-		ship_explosion_texture,
-		end_map_line_texture;
+	sf::Texture	backgroud_texture, player_texture,
+		big_meteor_texture, small_meteor_texture,
+		laser_texture, laser_explosion_texture,
+		ship_explosion_texture, end_map_line_texture;
 
-	sf::Sprite	background_sprite;
+	sf::Sprite background_sprite;
 
-	sf::Text	player_life,
-		meteors_counter_text,
-		shots_counter_text,
-		points_text,
-		game_over;
+	sf::Text player_life, meteors_counter_text,
+		shots_counter_text, points_text, game_over;
 
 
-	sf::Font	player_death_font,
-		statistic_font,
-		game_over_font;
+	sf::Font player_death_font, statistic_font, game_over_font;
 
 protected:
-	short		shots_counter,
-		meteors_counter,
-		points;
+	short shots_counter, meteors_counter, points;
 
-	float		time_to_game_over = 0.f;
+	float time_to_game_over = 0.f;
 };

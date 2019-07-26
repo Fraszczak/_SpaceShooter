@@ -6,7 +6,6 @@ Player::Player(Animation &animation, float x, float y) : Entity::Entity(animatio
 {
 	this->name = "Player";
 }
-
 void Player::update(sf::Time &t)
 {
 	

@@ -5,7 +5,6 @@ Laser::Laser(Animation &animation, float x, float y) : Entity::Entity(animation,
 {
 	this->name = "Laser";
 };
-
 void Laser::update(sf::Time &t)
 {
 	int	laser_speed = 1;

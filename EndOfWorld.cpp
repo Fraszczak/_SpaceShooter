@@ -5,10 +5,9 @@ EndOfWorld::EndOfWorld(Animation &animation, float x, float y) : Entity::Entity(
 {
 	this->name ="EndOfMap";
 }
-
 void EndOfWorld::update(sf::Time &t)
 {
-	int						laser_speed = 1;
+	int laser_speed = 1;
 
 	if (y > 50) { this->x += laser_speed; }
 	if (y < 50) { this->x -= laser_speed; }
